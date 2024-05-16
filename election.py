@@ -32,7 +32,7 @@ class VoteMachine:
             if self.party_votes[party] < 5:
                 d_parties.append(party)
 
-        print(f"Deposit lost parties - {",".join(d_parties)}")
+        print(f"Deposit lost parties - {','.join(d_parties)}")
 
 
 vote_machine = VoteMachine()
