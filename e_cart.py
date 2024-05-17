@@ -32,7 +32,7 @@ class Cart:
         if 5 <= len(self.items) < 10:
             dis_price = (tp * 15) / 100
 
-        if 10 < len(self.items) > 15:
+        if 10 < len(self.items) < 15:
             dis_price = (tp * 27) / 100
 
         if len(self.items) >= 15:
